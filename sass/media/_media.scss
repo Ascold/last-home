@@ -1,0 +1,112 @@
+@media (max-width: 1140px) {
+    .front-page .section-desc article {
+        padding: 0 100px;
+    }
+    .front-page .section-new-media h2 {
+        margin-left: 0;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .front-page .section-new-media h2 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 860px) {
+    header#masthead {
+        .main-logo {
+            margin: 142px 0 200px;
+            padding: 0 30px;
+        }
+    }
+    .front-page {
+        .section-desc {
+            padding: 40px 0 60px;
+            article {
+                padding: 0 50px;
+            }
+        }
+        .section-new-media {
+            padding-bottom: 60px;
+            h2 {
+                margin-left: 0;
+                padding-left: 50px;
+            }
+            .media-container {
+                .media-inner {
+                    width: 50%;
+                    &:nth-child(4) h4 {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    header#masthead {
+        position: relative;
+        .main-navigation {
+            ul.nav-menu {
+                margin-top: 76px;
+                li {
+                    float: none;
+                    display: block;
+                    a {
+                        display: inline-block;
+                        height: 64px;
+                        line-height: 64px;
+                    }
+                }
+            }
+        }
+        button {
+            font-size: 28px;
+            padding: 10px 14px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .main-logo {
+            margin: 142px 0 100px;
+        }
+    }
+    .front-page {
+        .section-desc {
+            font-size: 26px;
+            article {
+                padding: 0 30px;
+            }
+        }
+        .section-new-media .media-container .media-inner h4 {
+            font-size: 12px;
+        }
+        .section-new-media h2 {
+            text-align: center;
+            padding-left: 0;
+            font-size: 50px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .front-page {
+        .section-desc {
+            font-size: 22px;
+        }
+        .section-new-media {
+            padding-bottom: 20px;
+            .media-container {
+                .media-inner {
+                    width: 100%;
+                    &:nth-child(5) h4 {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

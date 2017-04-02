@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Alternate Got No 3 D';
+    src: url('../fonts/Alternate Gothic No3 D Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alternate Got No 1 D';
+    src: url('../fonts/Alternate Gothic No1 D Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('../fonts/Berthold Akzidenz Grotesk Light Condensed.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header#masthead {
+    nav {
+        a {
+            font-family: 'Alternate Got No 3 D', sans-serif;
+            font-size: 25px;
+        }
+    }
+}
+
+.front-page {
+    .section-desc {
+        font-size: 36px;
+        article {
+            font-family: 'Akzidenz Grotesk', sans-serif;
+        }
+    }
+    .section-new-media {
+        h2 {
+            font-size: 75px;
+            font-family: 'Alternate Got No 3 D', sans-serif;
+            letter-spacing: 3px;
+        }
+    }
+}

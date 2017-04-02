@@ -1,0 +1,46 @@
+.front-page {
+    .section-desc {
+        padding: 88px 0 60px;
+        article {
+            padding: 0 126px;
+            text-align: justify;
+        }
+    }
+    .section-new-media {
+        padding-bottom: 85px;
+        h2 {
+            text-align: left;
+            text-transform: uppercase;
+            margin-left: 124px;
+        }
+        .media-line {
+            height: 3px;
+            margin: 25px 0 45px;
+        }
+        .media-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px 16px;
+            display: flex;
+            flex-flow: row wrap;
+            .media-inner {
+                width: 33.33%;
+                padding: 4px;
+                a {
+                    display: block;
+                }
+                h4 {
+                    margin-top: 15px;
+                }
+                &:nth-child(1) h4,
+                &:nth-child(2) h4,
+                &:nth-child(3) h4 {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+

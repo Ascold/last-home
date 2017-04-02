@@ -1,0 +1,34 @@
+body {
+    background-color: #0f1318;
+}
+
+header#masthead {
+    .main-navigation {
+        ul.nav-menu {
+            li:hover,
+            .current-menu-item {
+                background-color: #d81406 !important;
+            }
+            a {
+                color: #ffffff;
+
+            }
+        }
+    }
+    .header-underline {
+        background: #d81406;
+    }
+}
+
+.front-page {
+    color: #b5cbd1;
+    .section-new-media {
+        .media-line {
+            background-color: #bb1309;
+        }
+        .media-container {
+            background-color: #010101;
+            color: #9d9d9d;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+ul, ol, p, h1, h2, h3, h4, address {
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container-inner {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
